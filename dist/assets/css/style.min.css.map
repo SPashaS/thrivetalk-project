@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,OAAe;EACjC,KAAK,EAAE,KAAK,GACf","file":"style.min.css","sourcesContent":["body {\r\n    background-color: rgb(37, 37, 37);\r\n    color: white;\r\n}\r\n"]}
