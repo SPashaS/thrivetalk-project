@@ -1,4 +1,14 @@
+@import './normalize';
+
 body {
-    background-color: rgb(37, 37, 37);
-    color: white;
+    background-color: #E5E5E5;
+    color: #22356F;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+@import './layout/header';
+@import './layout/menu';
