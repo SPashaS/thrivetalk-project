@@ -1,0 +1,22 @@
+.menu {
+    z-index: 2;
+
+    &__list {
+        display: flex;
+        column-gap: 15px;
+        font-size: 0.875rem;
+    }
+
+    &__item {
+        padding: 10px;
+        
+
+        &:hover {
+            border-bottom: 2px solid #22356F ;
+        }
+    }
+
+    &__link {
+        color: #22356F;
+    }
+}

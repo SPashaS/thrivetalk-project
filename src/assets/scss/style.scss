@@ -1,14 +1,44 @@
-@import './normalize';
+@import './base/normalize';
+@import './base/fonts';
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 
 body {
     background-color: #E5E5E5;
     color: #22356F;
+    font-family: 'Larsseit', sans-serif;
+    font-size: 100%;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
 }
 
 ul {
     list-style-type: none;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
-
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+button {
+    border: none;
+    background-color: transparent;
+}
 @import './layout/header';
-@import './layout/menu';
+@import './components/menu';
