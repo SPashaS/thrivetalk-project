@@ -407,7 +407,7 @@ button {
     justify-content: space-between;
     -ms-flex-align: start;
     align-items: flex-start;
-    border: 2px solid red;
+    z-index: 1111111111111;
 }
 
 .header__top-button {
@@ -427,7 +427,6 @@ button {
 }
 
 .header__content {
-    border: 2px solid red;
     margin-top: 250px;
     max-width: 600px;
 }
@@ -508,6 +507,10 @@ button {
     gap: 10px;
 }
 
+.menu {
+    z-index: 2;
+}
+
 .menu__list {
     display: -ms-flexbox;
     display: flex;
@@ -523,4 +526,8 @@ button {
 
 .menu__item:hover {
     border-bottom: 2px solid #22356F;
+}
+
+.menu__link {
+    color: #22356F;
 }
