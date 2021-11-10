@@ -1,4 +1,6 @@
 .box {
+    padding: 72px 52px;
+    
     &__inner {
         display: flex;
         flex-direction: column;
@@ -15,12 +17,22 @@
         background-color: #C4E769;
     }
 
-    &--blue {
+    &--light-blue {
         background-color: #62D0DF;
     }
 
-    &--dark-blue {
+    &--blue {
         background-color: #0052C1;
+    }
+
+    &--dark-blue {
+        background-color: #22356F;;
+    }
+    &--crem {
+        background-color: #DEE1FF;
+    }
+    &--violet {
+        background-color: #8F00FF;;
     }
 
     &__title {
