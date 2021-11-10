@@ -450,6 +450,24 @@ button {
       font-size: 1.5rem;
       line-height: 35px; }
 
+.about {
+  background-color: white; }
+  .about__inner {
+    display: flex;
+    justify-content: flex-start;
+    gap: 225px;
+    padding: 156px 105px 45px; }
+  .about__title {
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 1rem; }
+  .about__text {
+    width: 595px;
+    margin: 0px;
+    font-size: 1.5rem;
+    line-height: 34px;
+    letter-spacing: 0.005em; }
+
 .menu {
   z-index: 2; }
   .menu__list {
@@ -459,7 +477,7 @@ button {
   .menu__item {
     padding: 10px; }
     .menu__item:hover {
-      border-bottom: 2px solid #22356F; }
+      border-bottom: 3px solid #22356F; }
   .menu__link {
     color: #22356F; }
 
