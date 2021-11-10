@@ -468,6 +468,24 @@ button {
     line-height: 34px;
     letter-spacing: 0.005em; }
 
+.programs {
+  background-color: white; }
+  .programs__title {
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: rgba(34, 53, 111, 0.5);
+    font-size: 1rem;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    padding: 25px 0; }
+  .programs__block {
+    display: flex; }
+  .programs__box {
+    width: 25%;
+    height: 360px;
+    padding: 72px 52px; }
+
 .menu {
   z-index: 2; }
   .menu__list {
@@ -480,5 +498,43 @@ button {
       border-bottom: 3px solid #22356F; }
   .menu__link {
     color: #22356F; }
+
+.box__inner {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-top: 2px solid #ffffff8e;
+  padding-top: 23px; }
+
+.box--pink {
+  background-color: #FFE2DE; }
+
+.box--green {
+  background-color: #C4E769; }
+
+.box--blue {
+  background-color: #62D0DF; }
+
+.box--dark-blue {
+  background-color: #0052C1; }
+
+.box__title {
+  font-size: 2rem;
+  line-height: 34px;
+  letter-spacing: -0.006em;
+  color: white;
+  margin: 0px;
+  position: absolute;
+  left: 25px; }
+  .box__title::before {
+    content: "";
+    display: block;
+    background-color: #E9B730;
+    width: 9px;
+    height: 9px;
+    border-radius: 4.5px;
+    position: absolute;
+    left: -25px;
+    top: 13px; }
 
 /*# sourceMappingURL=style.min.css.map */

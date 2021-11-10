@@ -1,0 +1,47 @@
+.box {
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border-top: 2px solid #ffffff8e;
+        padding-top: 23px;
+    }
+
+    &--pink {
+        background-color: #FFE2DE;
+    }
+
+    &--green {
+        background-color: #C4E769;
+    }
+
+    &--blue {
+        background-color: #62D0DF;
+    }
+
+    &--dark-blue {
+        background-color: #0052C1;
+    }
+
+    &__title {
+        font-size: 2rem;
+        line-height: 34px;
+        letter-spacing: -0.006em;
+        color: white;
+        margin: 0px;
+        position: absolute;
+        left: 25px;
+
+        &::before {
+            content: "";
+            display: block;
+            background-color: #E9B730;
+            width: 9px;
+            height: 9px;
+            border-radius: 4.5px;
+            position: absolute;
+            left: -25px;
+            top: 13px;
+        }
+    }
+}

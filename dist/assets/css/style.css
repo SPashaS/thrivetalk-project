@@ -547,6 +547,33 @@ button {
     line-height: 35px;
 }
 
+.about {
+    background-color: white;
+}
+
+.about__inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    gap: 225px;
+    padding: 156px 105px 45px;
+}
+
+.about__title {
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 1rem;
+}
+
+.about__text {
+    width: 595px;
+    margin: 0px;
+    font-size: 1.5rem;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+}
+
 .menu {
     z-index: 2;
 }
@@ -565,9 +592,25 @@ button {
 }
 
 .menu__item:hover {
-    border-bottom: 2px solid #22356F;
+    border-bottom: 3px solid #22356F;
 }
 
 .menu__link {
     color: #22356F;
+}
+
+.box--pink {
+    background-color: #FFE2DE;
+}
+
+.box--green {
+    background-color: #C4E769;
+}
+
+.box--blue {
+    background-color: #62D0DF;
+}
+
+.box--dark-blue {
+    background-color: #0052C1;
 }

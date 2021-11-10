@@ -1,0 +1,29 @@
+.programs {
+    background-color: white;
+
+    &__inner {
+
+    }
+    
+    &__title {
+        margin: 0 auto;
+        text-transform: uppercase;
+        color: rgba(34, 53, 111, 0.5);
+        font-size: 1rem;
+        line-height: 19px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        padding: 25px 0;
+    }
+
+    &__block {
+        display: flex;
+
+    }
+
+    &__box {
+        width: 25%;
+        height: 360px;
+        padding: 72px 52px;
+    }
+}
