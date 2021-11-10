@@ -89,10 +89,12 @@
     }
 
     &__button {
+        padding: 0 30px;
 
         &-wrap {
             display: flex;
             gap:10px;
+            
         }
     }
 }

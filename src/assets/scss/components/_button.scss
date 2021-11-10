@@ -4,12 +4,26 @@
     justify-content: center;
     align-items: center;
     letter-spacing: 0.1em;
-    color: #FAB63E;
+    
     height: 50px;
     text-transform: uppercase;
     
-    &:hover {
-        background: #F9B640;
-        color: white;
+    &--yellow {
+        color: #FAB63E;
+
+        &:hover {
+            background: #F9B640;
+            color: white;
+        }
     }
+
+    &--blue {
+        color: #62D0DF;
+
+        &:hover {
+            background: #62D0DF;;
+            color: white;
+        }
+    }
+    
 }
