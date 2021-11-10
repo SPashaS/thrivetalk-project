@@ -1,0 +1,15 @@
+.button {
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FAB63E;
+    height: 50px;
+    text-transform: uppercase;
+    
+    &:hover {
+        background: #F9B640;
+        color: white;
+    }
+}

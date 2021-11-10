@@ -1,4 +1,8 @@
 .title {
     line-height: 27px;
     letter-spacing: -0.006em;
+    
+    &--up {
+        text-transform: uppercase;
+    }
 }
