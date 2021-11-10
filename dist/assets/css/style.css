@@ -483,6 +483,10 @@ button {
     width: 495px;
 }
 
+.header__button {
+    padding: 0 30px;
+}
+
 .header__button-wrap {
     display: -ms-flexbox;
     display: flex;
@@ -622,8 +626,8 @@ button {
     grid-template-columns: 1fr 2fr;
 }
 
-.information__image {
-    width: 480px;
+.information__image-block {
+    max-width: 480px;
 }
 
 .information__inner {
@@ -647,6 +651,48 @@ button {
 }
 
 .information__button {
+    width: 205px;
+    -webkit-transform: translateX(-25px);
+    transform: translateX(-25px);
+}
+
+.contact {
+    background-color: #22356F;
+    color: white;
+}
+
+.contact__grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.contact__image-block {
+    max-width: 480px;
+}
+
+.contact__inner {
+    padding: 103px 180px 42px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.contact__subtitle {
+    font-size: 4rem;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+}
+
+.contact__text {
+    font-size: 2.25rem;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+}
+
+.contact__button {
     width: 205px;
     -webkit-transform: translateX(-25px);
     transform: translateX(-25px);
@@ -750,13 +796,25 @@ button {
     -ms-flex-align: center;
     align-items: center;
     letter-spacing: 0.1em;
-    color: #FAB63E;
     height: 50px;
     text-transform: uppercase;
 }
 
-.button:hover {
+.button--yellow {
+    color: #FAB63E;
+}
+
+.button--yellow:hover {
     background: #F9B640;
+    color: white;
+}
+
+.button--blue {
+    color: #62D0DF;
+}
+
+.button--blue:hover {
+    background: #62D0DF;
     color: white;
 }
 

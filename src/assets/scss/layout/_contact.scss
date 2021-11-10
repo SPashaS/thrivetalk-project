@@ -8,7 +8,10 @@
     }
 
     &__image {
-        width: 480px;
+
+        &-block {
+            max-height: 800px;
+        }
     }
 
     &__inner {
