@@ -13,6 +13,7 @@ body {
     color: #22356F;
     font-family: 'Larsseit', sans-serif;
     font-size: 100%;
+    min-width: 320px;
 }
 
 h1, h2, h3, h4,
@@ -43,7 +44,7 @@ button {
 }
 
 @import './layout/header';
-@import './layout/main';
+@import './layout/why-thrive';
 @import './layout/about';
 @import './layout/programs';
 @import './layout/plans';
